@@ -1,0 +1,36 @@
+.image{
+    // background-image: url(../images/cover.jpg);
+    background-position: center;
+    width:105%;
+    height:500px;
+    margin-left: -15px;
+    h1{
+       
+        font-family: 'josefin Sans', sans-serif;
+        letter-spacing: -1px;
+        color: black;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-top: 10%;
+        font-size: 42px;
+      position: relative;
+    
+
+    }
+    button{
+        font-weight: 400;
+        font-size: 20px;
+&:hover{
+    text-decoration-line: underline;
+}
+    }
+    a{
+font-size: 17px;
+color:#330033;
+padding: 10px;
+    }
+    a:hover{
+        color: goldenrod;
+        text-decoration: none;
+    }
+}
