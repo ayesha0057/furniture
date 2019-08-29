@@ -1,7 +1,5 @@
-var path = require('path')
+
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-const glob = require('glob-all')
-var PurifyCSSPlugin= require('purifycss-webpack'); 
 
 module.exports = {
   entry: [
@@ -77,11 +75,6 @@ module.exports = {
     new ExtractTextPlugin({
       filename: '../css/styles.css'
     }),
-    new PurifyCSSPlugin({
-      paths: glob.sync([
-        path.join(__dirname, 'dist/index.html'),
-        path.join(__dirname, 'src/js/*.js')
-      ])
-    })
+   
   ]
 };
