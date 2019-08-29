@@ -1,3 +1,8 @@
-.app {
-  color: red;
+.p1 {
+  margin-left: -105px;
+  color: #000;
+}
+
+body {
+  overflow-x: hidden;
 }
